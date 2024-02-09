@@ -1,18 +1,16 @@
 body {
     padding: 0px;
-    color: white;
     margin: 0;
     font-size: 18px;
-    background: white;
     text-rendering: optimizeSpeed;
     font-family: "Roboto", sans-serif;
+    background:white;
   }
   
   .App {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background: white;
     border-radius: 10px;
     padding-top: 100px;
   }
@@ -72,10 +70,12 @@ body {
   .button1 {
     color: black;
     margin: 5px;
+    
   }
   
   .button1:hover {
     background-color: red;
+    
   }
   
   .button2 {
