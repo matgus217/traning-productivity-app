@@ -1,31 +1,35 @@
 body {
-    padding: 50px;
+    padding: 0px;
     color: #f7f7f7;
-    min-height: 100vh;
-    background: #252525;
+    margin: 0;
+    font-size: 18px;
+    background: white;
     text-rendering: optimizeSpeed;
     font-family: "Roboto", sans-serif;
   }
   
   .App {
-    padding: 1rem;
-    max-width: 50%;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    background: #333;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 5px;
+    background: white;
+    border-radius: 10px;
+    padding-top: 100px;
   }
   
   h1 {
-    font-weight: 300;
-    color: #44c0b6;
+    font-weight: 100;
+    color: black;
     font-size: 2.5rem;
     letter-spacing: 0.2rem;
     text-transform: uppercase;
+    text-align: center
   }
   
   .input-wrapper {
     margin: 3.5rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .todos-wrapper {
@@ -39,7 +43,7 @@ body {
   }
   
   input {
-    width: 450px;
+    width: 350px;
     padding: 0.8em;
   }
   
@@ -59,18 +63,19 @@ body {
   button {
     font-size: 1em;
     appearance: none;
-    color: currentcolor;
+    color:black;
     background: transparent;
-    border: 1px solid #828691;
+    border: 1px solid black;
+    border-radius: 10px;
   }
   
-  .add-button {
-    color: #44c0b6;
+  .button1 {
+    color: black;
     border-left: none;
   }
   
-  .delete-button {
-    color: #fe6a6a;
+  .button2 {
+    color: red;
   }
   
   ul {
@@ -80,23 +85,25 @@ body {
   }
   
   li {
-    width: 450px;
+    width: 350px;
     padding: 0.85em;
     text-align: left;
     margin-bottom: 0.5rem;
-    background: #494847;
+    background: white;
     letter-spacing: 0.02rem;
     transition: all 0.3s ease-out;
-    border-left: 5px solid #cf972e;
+    border-left: 5px solid red;
+    color:black;
+    border-radius: 10px;
   }
   
   li:last-child {
     margin-bottom: 0px;
   }
   
-  .empty {
+  .blank {
     font-size: 20px;
     font-weight: 400;
-    color: #cf972e;
+    color: red;
     letter-spacing: 0.2rem;
   }

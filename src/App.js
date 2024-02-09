@@ -34,7 +34,7 @@ const App = () => {
               setTodo(e.target.value);
             }}
           />
-          <button className="add-button" onClick={addTodo}>
+          <button className="button1" onClick={addTodo}>
             Add
           </button>
         </div>
@@ -46,7 +46,7 @@ const App = () => {
                 <li key={index}> {todo} </li>
   
                 <button
-                  className="delete-button"
+                  className="button2"
                   onClick={() => {
                     deleteTodo(todo);
                   }}
@@ -57,7 +57,7 @@ const App = () => {
             ))}
           </ul>
         ) : (
-          <div className="empty">
+          <div className="blank">
             <p>The schedule is empty</p>
           </div>
         )}
