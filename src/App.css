@@ -1,6 +1,6 @@
 body {
     padding: 0px;
-    color: #f7f7f7;
+    color: white;
     margin: 0;
     font-size: 18px;
     background: white;
@@ -74,10 +74,17 @@ body {
     border-left: none;
   }
   
+  .button1:hover {
+    background-color: red;
+  }
+  
   .button2 {
     color: red;
   }
   
+  .button2:hover{
+    background-color: black;
+  }
   ul {
     padding: 0;
     list-style: none;
@@ -92,7 +99,7 @@ body {
     background: white;
     letter-spacing: 0.02rem;
     transition: all 0.3s ease-out;
-    border-left: 5px solid red;
+    border-left: 10px solid red;
     color:black;
     border-radius: 10px;
   }
