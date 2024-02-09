@@ -71,7 +71,7 @@ body {
   
   .button1 {
     color: black;
-    border-left: none;
+    margin: 5px;
   }
   
   .button1:hover {
@@ -80,6 +80,7 @@ body {
   
   .button2 {
     color: red;
+    margin: 5px;
   }
   
   .button2:hover{
@@ -102,6 +103,7 @@ body {
     border-left: 10px solid red;
     color:black;
     border-radius: 10px;
+    
   }
   
   li:last-child {
