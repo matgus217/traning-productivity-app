@@ -4,7 +4,8 @@ body {
     font-size: 18px;
     text-rendering: optimizeSpeed;
     font-family: "Roboto", sans-serif;
-    background:white;
+    background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    
   }
   
   .App {
@@ -12,7 +13,7 @@ body {
     margin-right: auto;
     text-align: center;
     border-radius: 10px;
-    padding-top: 100px;
+    padding-top: 150px;
   }
   
   h1 {
@@ -50,7 +51,7 @@ body {
   }
   
   button {
-    width: 120px;
+    width: 100px;
     padding: 0.8em;
     cursor: pointer;
     font-weight: 400;
@@ -74,17 +75,24 @@ body {
   }
   
   .button1:hover {
-    background-color: red;
-    
+    background-color: black;
+    -webkit-transition: background-color 15s ease-out;
+    -moz-transition: background-color 15s ease-out;
+    -o-transition: background-color 15s ease-out;
+    transition: background-color 15s ease-out;  
   }
   
   .button2 {
-    color: red;
+    color: black;
     margin: 5px;
   }
   
   .button2:hover{
     background-color: black;
+    -webkit-transition: background-color 15s ease-out;
+    -moz-transition: background-color 15s ease-out;
+    -o-transition: background-color 15s ease-out;
+    transition: background-color 15s ease-out;  
   }
   ul {
     padding: 0;
@@ -97,12 +105,12 @@ body {
     padding: 0.85em;
     text-align: left;
     margin-bottom: 0.5rem;
-    background: white;
+    background: transparent;
     letter-spacing: 0.02rem;
     transition: all 0.3s ease-out;
-    border-left: 10px solid red;
     color:black;
     border-radius: 10px;
+    border: 1px solid black;
     
   }
   
@@ -113,6 +121,6 @@ body {
   .blank {
     font-size: 20px;
     font-weight: 400;
-    color: red;
+    color: black;
     letter-spacing: 0.2rem;
   }

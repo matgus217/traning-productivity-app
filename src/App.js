@@ -8,7 +8,7 @@ const App = () => {
   
     const addTodo = () => {
       if (todo !== "") {
-        setTodos([...todos, todo]);
+        setTodos([...todos, todo,]);
         setTodo("");
       }
     };
@@ -32,9 +32,15 @@ const App = () => {
             placeholder="Add your scheduled items"
             onChange={(e) => {
               setTodo(e.target.value);
+              
+              
             }}
           />
-          <button className="button1" onClick={addTodo}>
+           
+        
+        
+        <button className="button1" onClick={addTodo}>
+            
             Add
           </button>
         </div>
@@ -44,7 +50,7 @@ const App = () => {
             {todos.map((todo, index) => (
               <div className="todo">
                 <li key={index}> {todo} </li>
-  
+                
                 <button
                   className="button2"
                   onClick={() => {
